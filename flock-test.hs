@@ -19,5 +19,4 @@ testFlock = do
       flock = Flock fishies' (FlockingParams 0.25 25.0)
       newFlock = runFlock flock
   putStrLn $ show $ head $ fishies flock
-  putStrLn $ show $ head $ fishies flock
-  
+  putStrLn $ show $ head $ fishies newFlock
