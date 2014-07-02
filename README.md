@@ -1,1 +1,1 @@
-ghc --make Main.hs -O; ./Main
+    > ghc --make Main.hs -O; ./Main
